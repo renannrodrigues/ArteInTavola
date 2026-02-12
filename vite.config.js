@@ -13,7 +13,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        cardapio: resolve(__dirname, 'cardapio.html'),
+        cardapioAlacarte: resolve(__dirname, 'cardapio-alacarte.html'),
+        cardapioDegustacao: resolve(__dirname, 'cardapio-degustacao.html'),
         reservas: resolve(__dirname, 'reservas.html'),
       },
     },
