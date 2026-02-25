@@ -99,7 +99,7 @@
   <section class="hero-section">
     <!-- GIF de Fundo -->
     <div class="hero-background">
-      <img src="/img/2.webp" alt="Background" class="hero-gif">
+      <img src="/img/1.jpg" alt="Background" class="hero-gif">
     </div>
     <div class="hero-overlay"></div>
     
@@ -113,7 +113,7 @@
         Cozinha italiana contemporânea em um ambiente sofisticado
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
-        <a href="cardapio.html" class="btn-primary">
+        <a href="cardapio-alacarte.html" class="btn-primary">
           Ver Cardápio
         </a>
         <a href="reservas.html" class="btn-secondary">
@@ -138,7 +138,7 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div class="reveal">
             <img 
-              src="/img/5.webp" 
+              src="/img/14.jpg" 
               alt="Arte In Tavola Logo" 
               class="rounded-lg shadow-2xl w-full"
             >
@@ -176,8 +176,111 @@
     </div>
   </section>
 
-  <!-- DESTAQUES DO CARDÁPIO -->
+  <!-- NOSSOS CARDÁPIOS - PREVIEW COM FOTO DE FUNDO -->
   <section class="section-padding bg-tavola-cream">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16 reveal">
+        <span class="text-tavola-gold text-sm font-semibold tracking-wider uppercase">Explore Nossa Cozinha</span>
+        <h2 class="text-4xl md:text-5xl font-display font-bold text-gray-800 mt-4 mb-6">
+          Nossos Cardápios
+        </h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Duas experiências únicas para momentos inesquecíveis
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+        <!-- CARD: MENU DEGUSTAÇÃO -->
+        <div class="reveal group relative h-[520px] rounded-3xl overflow-hidden shadow-2xl cursor-pointer">
+          <!-- Foto de fundo -->
+          <img
+            src="/img/ossobuco.webp"
+            alt="Menu Degustação"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+          <!-- Overlay escuro gradiente -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10"></div>
+
+          <!-- Conteúdo -->
+          <div class="absolute inset-0 flex flex-col justify-end p-8 md:p-10">
+            <span class="text-tavola-gold text-xs font-semibold tracking-widest uppercase mb-3">Experiência Completa</span>
+            <h3 class="text-4xl font-display font-bold text-white mb-4 leading-tight">
+              Menu Degustação
+            </h3>
+            <p class="text-white/85 text-base leading-relaxed mb-6">
+              Uma seleção especial com entrada, prato principal e sobremesa cuidadosamente escolhidos. Harmonização de vinhos disponível com nosso sommelier exclusivo.
+            </p>
+            <div class="flex items-center justify-between mb-6">
+              <div>
+                <p class="text-white/70 text-sm">A partir de</p>
+                <p class="text-3xl font-bold text-tavola-gold">R$ 160<span class="text-lg font-normal">,00</span></p>
+                <p class="text-white/60 text-xs">por pessoa</p>
+              </div>
+              <div class="text-right">
+                <p class="text-white/70 text-sm">+ Harmonização</p>
+                <p class="text-xl font-bold text-white">R$ 80<span class="text-sm font-normal">,00</span></p>
+                <p class="text-white/60 text-xs">por pessoa</p>
+              </div>
+            </div>
+            <a 
+              href="cardapio-degustacao.html" 
+              class="inline-flex items-center justify-center gap-2 bg-tavola-gold hover:bg-tavola-gold/90 text-white px-8 py-3.5 rounded-xl font-semibold transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 text-center"
+            >
+              Ver Menu Degustação
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD: CARDÁPIO À LA CARTE -->
+        <div class="reveal group relative h-[520px] rounded-3xl overflow-hidden shadow-2xl cursor-pointer">
+          <!-- Foto de fundo -->
+          <img
+            src="/img/massa.jpg"
+            alt="Cardápio à La Carte"
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+          <!-- Overlay escuro gradiente -->
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10"></div>
+
+          <!-- Conteúdo -->
+          <div class="absolute inset-0 flex flex-col justify-end p-8 md:p-10">
+            <span class="text-tavola-gold text-xs font-semibold tracking-widest uppercase mb-3">Sabores Autênticos</span>
+            <h3 class="text-4xl font-display font-bold text-white mb-4 leading-tight">
+              Cardápio à La Carte
+            </h3>
+            <p class="text-white/85 text-base leading-relaxed mb-6">
+              Entradas, sopas, risotos, massas frescas artesanais, pratos principais e sobremesas. Escolha os pratos que mais conquistas seu paladar.
+            </p>
+            <!-- Mini destaque de pratos -->
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-white/15 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full border border-white/20">Massas Frescas</span>
+              <span class="bg-white/15 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full border border-white/20">Risotos</span>
+              <span class="bg-white/15 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full border border-white/20">Salmão</span>
+              <span class="bg-white/15 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full border border-white/20">Ossobuco</span>
+              <span class="bg-white/15 backdrop-blur-sm text-white text-xs px-3 py-1 rounded-full border border-white/20">Sobremesas</span>
+            </div>
+            <a 
+              href="cardapio-alacarte.html" 
+              class="inline-flex items-center justify-center gap-2 bg-tavola-green hover:bg-tavola-green-dark text-white px-8 py-3.5 rounded-xl font-semibold transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 text-center"
+            >
+              Ver Cardápio Completo
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- DESTAQUES DO CARDÁPIO -->
+  <section class="section-padding bg-white">
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
         <span class="text-tavola-gold text-sm font-semibold tracking-wider uppercase">Sabores Autênticos</span>
@@ -201,7 +304,7 @@
           <div class="p-6">
             <h3 class="text-2xl font-display font-semibold mb-3 text-gray-800">Massas Artesanais</h3>
             <p class="text-gray-600 leading-relaxed">
-              Ravioli, tortelloni e tagliarini feitos frescos diariamente com receitas tradicionais
+              Ravioli, tortelloni e tagliarini feitos frescos com receitas tradicionais
             </p>
           </div>
         </div>
@@ -240,9 +343,76 @@
       </div>
 
       <div class="text-center mt-12">
-        <a href="cardapio.html" class="btn-primary">
+        <a href="cardapio-alacarte.html" class="btn-primary">
           Ver Cardápio Completo
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRIPADVISOR SECTION -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-10 reveal">
+        <span class="text-tavola-gold text-sm font-semibold tracking-wider uppercase">O que dizem sobre nós</span>
+        <h2 class="text-4xl md:text-5xl font-display font-bold text-gray-800 mt-4 mb-4">
+          Avaliações dos Clientes
+        </h2>
+        <p class="text-gray-600 text-lg max-w-xl mx-auto">
+          Veja o que nossos clientes compartilham sobre a experiência no Arte In Tavola
+        </p>
+      </div>
+
+      <!-- Widget TripAdvisor -->
+      <div class="reveal max-w-4xl mx-auto">
+        <!-- Caixa visual de avaliação TripAdvisor -->
+        <div class="bg-[#34E0A1]/10 border-2 border-[#34E0A1]/40 rounded-3xl p-8 md:p-12 text-center shadow-xl">
+          <!-- Logo TripAdvisor SVG -->
+          <div class="flex items-center justify-center gap-3 mb-6">
+            <svg viewBox="0 0 512 512" class="w-12 h-12" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="256" cy="256" r="256" fill="#34E0A1"/>
+              <circle cx="175" cy="256" r="55" fill="white"/>
+              <circle cx="337" cy="256" r="55" fill="white"/>
+              <circle cx="175" cy="256" r="30" fill="#111"/>
+              <circle cx="337" cy="256" r="30" fill="#111"/>
+              <ellipse cx="256" cy="180" rx="110" ry="28" fill="white" opacity="0.3"/>
+            </svg>
+            <span class="text-3xl font-bold text-gray-800">TripAdvisor</span>
+          </div>
+
+          <!-- Estrelas -->
+          <div class="flex justify-center gap-1 mb-4">
+            <svg class="w-9 h-9 text-[#34E0A1]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-9 h-9 text-[#34E0A1]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-9 h-9 text-[#34E0A1]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-9 h-9 text-[#34E0A1]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-9 h-9 text-[#34E0A1]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+
+          <p class="text-2xl font-bold text-gray-800 mb-1">Excelente</p>
+          <p class="text-gray-500 mb-8">Arte In Tavola Restaurante · Farroupilha</p>
+
+          <!-- Botão para o TripAdvisor -->
+          <a 
+            href="https://www.tripadvisor.com.br/Restaurant_Review-g2382745-d23902829-Reviews-Arte_In_Tavola_Restaurante-Farroupilha_State_of_Rio_Grande_do_Sul.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 bg-[#34E0A1] hover:bg-[#22c98a] text-white px-10 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
+          >
+            <svg viewBox="0 0 512 512" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="256" cy="256" r="256" fill="white"/>
+              <circle cx="175" cy="256" r="55" fill="#34E0A1"/>
+              <circle cx="337" cy="256" r="55" fill="#34E0A1"/>
+              <circle cx="175" cy="256" r="28" fill="#111"/>
+              <circle cx="337" cy="256" r="28" fill="#111"/>
+            </svg>
+            Ver Avaliações no TripAdvisor
+          </a>
+
+          <p class="text-gray-400 text-sm mt-6">
+            Leia os comentários e preços de cardápio diretamente na plataforma
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -250,7 +420,7 @@
   <!-- AMBIENTE -->
   <section id="ambiente" class="section-padding bg-white">
     <div class="container mx-auto px-6">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16 reveal">
         <span class="text-tavola-gold text-sm font-semibold tracking-wider uppercase">Nosso Espaço</span>
         <h2 class="text-4xl md:text-5xl font-display font-bold text-gray-800 mt-4 mb-6">
           Um Ambiente Acolhedor
@@ -260,35 +430,40 @@
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-        <div class="reveal">
-          <img 
-            src="/img/1.webp" 
-            alt="Interior do Restaurante" 
-            class="rounded-lg shadow-xl w-full h-80 object-cover"
-          >
+      <!-- Slider Container -->
+      <div class="relative max-w-6xl mx-auto reveal" id="amb-gallery-wrapper">
+        <div class="overflow-hidden rounded-2xl shadow-2xl">
+          <div
+            id="amb-gallery-track"
+            class="flex transition-transform duration-500 ease-in-out"
+            style="will-change: transform;"
+          ></div>
         </div>
-        <div class="reveal">
-          <img 
-            src="/img/3.webp" 
-            alt="Interior do Restaurante" 
-            class="rounded-lg shadow-xl w-full h-80 object-cover"
-          >
-        </div>
-        <div class="reveal">
-          <img 
-            src="/img/4.webp" 
-            alt="Interior do Restaurante" 
-            class="rounded-lg shadow-xl w-full h-80 object-cover"
-          >
-        </div>
-        <div class="reveal">
-          <img 
-            src="/img/5.webp" 
-            alt="Mesa preparada" 
-            class="rounded-lg shadow-xl w-full h-80 object-cover"
-          >
-        </div>
+
+        <!-- Botão Anterior -->
+        <button
+          id="amb-gallery-prev"
+          class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-5 md:-translate-x-7 z-10 bg-white hover:bg-tavola-gold text-tavola-green hover:text-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110"
+          aria-label="Anterior"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+
+        <!-- Botão Próximo -->
+        <button
+          id="amb-gallery-next"
+          class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5 md:translate-x-7 z-10 bg-white hover:bg-tavola-gold text-tavola-green hover:text-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110"
+          aria-label="Próximo"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        <!-- Dots -->
+        <div id="amb-gallery-dots" class="flex justify-center gap-2 mt-6"></div>
       </div>
     </div>
   </section>
@@ -405,11 +580,180 @@
       </div>
 
       <div class="border-t border-white/20 pt-8 text-center text-white/60">
-        <p>&copy; 2024 Arte In Tavola - Todos os direitos reservados</p>
+        <p>&copy; 2026 Arte In Tavola - Todos os direitos reservados</p>
       </div>
     </div>
   </footer>
 
   <script type="module" src="js/main.js"></script>
+
+  <!-- SLIDER + LIGHTBOX SCRIPT -->
+  <script>
+    const ambPhotos = [
+      { src: '/img/1.jpg',        alt: 'Interior do Restaurante' },
+      { src: '/img/2.jpg',        alt: 'Interior do Restaurante' },
+      { src: '/img/3.jpg',        alt: 'Interior do Restaurante' },
+      { src: '/img/4.jpg',        alt: 'Interior do Restaurante' },
+      { src: '/img/5.jpg',        alt: 'Mesa preparada' },
+      { src: '/img/6.jpg',        alt: 'Arte In Tavola - Detalhes' },
+      { src: '/img/7.jpg',         alt: 'Arte In Tavola - Ambiente' },
+      { src: '/img/8.jpg', alt: 'Arte In Tavola - Foto 10' },
+      { src: '/img/9.jpg', alt: 'Arte In Tavola - Foto 11' },
+      { src: '/img/10.jpg', alt: 'Arte In Tavola - Foto 12' },
+      { src: '/img/11.jpg', alt: 'Arte In Tavola - Foto 13' },
+      { src: '/img/12.jpg', alt: 'Arte In Tavola - Foto 14' },
+      { src: '/img/13.jpg', alt: 'Arte In Tavola - Foto 15' },
+      { src: '/img/14.jpg', alt: 'Arte In Tavola - Foto 16' },
+      { src: '/img/15.jpg', alt: 'Arte In Tavola - Foto 17' },
+      { src: '/img/16.jpg', alt: 'Arte In Tavola - Foto 18' },
+      { src: '/img/17.jpg', alt: 'Arte In Tavola - Foto 19' },
+      { src: '/img/18.jpg', alt: 'Arte In Tavola - Foto 20' },
+
+    ]
+
+    // ─── SLIDER ───────────────────────────────────────
+    const AMB_PER_PAGE = 3
+    const ambTotalPages = Math.ceil(ambPhotos.length / AMB_PER_PAGE)
+    let ambCurrentPage = 0
+
+    const ambTrack   = document.getElementById('amb-gallery-track')
+    const ambDotsEl  = document.getElementById('amb-gallery-dots')
+    const ambPrevBtn = document.getElementById('amb-gallery-prev')
+    const ambNextBtn = document.getElementById('amb-gallery-next')
+
+    for (let p = 0; p < ambTotalPages; p++) {
+      const slide = document.createElement('div')
+      slide.className = 'min-w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-1'
+      const start = p * AMB_PER_PAGE
+      const end   = Math.min(start + AMB_PER_PAGE, ambPhotos.length)
+      for (let i = start; i < end; i++) {
+        const photo = ambPhotos[i]
+        const wrap = document.createElement('div')
+        wrap.className = 'aspect-[4/3] overflow-hidden rounded-xl cursor-zoom-in'
+        wrap.innerHTML = '<img src="' + photo.src + '" alt="' + photo.alt + '" data-index="' + i + '" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onerror="this.parentElement.style.display=\'none\'" />'
+        wrap.addEventListener('click', () => lbOpen(i))
+        slide.appendChild(wrap)
+      }
+      ambTrack.appendChild(slide)
+    }
+
+    for (let p = 0; p < ambTotalPages; p++) {
+      const dot = document.createElement('button')
+      dot.className = 'w-3 h-3 rounded-full transition-all duration-300 ' + (p === 0 ? 'bg-tavola-green scale-125' : 'bg-gray-300 hover:bg-gray-400')
+      dot.setAttribute('aria-label', 'Página ' + (p + 1))
+      dot.addEventListener('click', () => ambGoToPage(p))
+      ambDotsEl.appendChild(dot)
+    }
+
+    function ambGoToPage(page) {
+      ambCurrentPage = page
+      ambTrack.style.transform = 'translateX(-' + (page * 100) + '%)'
+      Array.from(ambDotsEl.children).forEach((dot, i) => {
+        dot.className = 'w-3 h-3 rounded-full transition-all duration-300 ' + (i === page ? 'bg-tavola-green scale-125' : 'bg-gray-300 hover:bg-gray-400')
+      })
+    }
+
+    ambPrevBtn.addEventListener('click', () => ambGoToPage(ambCurrentPage > 0 ? ambCurrentPage - 1 : ambTotalPages - 1))
+    ambNextBtn.addEventListener('click', () => ambGoToPage(ambCurrentPage < ambTotalPages - 1 ? ambCurrentPage + 1 : 0))
+
+    let ambAutoPlay = setInterval(() => ambGoToPage(ambCurrentPage < ambTotalPages - 1 ? ambCurrentPage + 1 : 0), 5000)
+
+    // ─── LIGHTBOX ─────────────────────────────────────
+    // Cria o lightbox no DOM uma única vez
+    const lb = document.createElement('div')
+    lb.id = 'lightbox'
+    lb.style.cssText = 'display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.93);align-items:center;justify-content:center;'
+    lb.innerHTML = `
+      <div style="position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:24px;">
+
+        <!-- Imagem principal -->
+        <img id="lb-img" src="" alt="" style="max-width:90vw;max-height:85vh;object-fit:contain;border-radius:12px;box-shadow:0 25px 60px rgba(0,0,0,0.6);transition:opacity 0.25s ease;user-select:none;" />
+
+        <!-- Contador -->
+        <div id="lb-counter" style="position:absolute;top:20px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.55);color:white;font-family:Poppins,sans-serif;font-size:14px;padding:6px 16px;border-radius:999px;backdrop-filter:blur(6px);"></div>
+
+        <!-- Botão Fechar (X) -->
+        <button id="lb-close" aria-label="Fechar" style="position:absolute;top:16px;right:16px;background:rgba(255,255,255,0.12);border:none;color:white;width:44px;height:44px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:22px;backdrop-filter:blur(6px);transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.12)'">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 1l16 16M17 1L1 17" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </button>
+
+        <!-- Botão Anterior -->
+        <button id="lb-prev" aria-label="Foto anterior" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.12);border:none;color:white;width:52px;height:52px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(6px);transition:background 0.2s;" onmouseover="this.style.background='rgba(201,169,97,0.7)'" onmouseout="this.style.background='rgba(255,255,255,0.12)'">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+
+        <!-- Botão Próximo -->
+        <button id="lb-next" aria-label="Próxima foto" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.12);border:none;color:white;width:52px;height:52px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(6px);transition:background 0.2s;" onmouseover="this.style.background='rgba(201,169,97,0.7)'" onmouseout="this.style.background='rgba(255,255,255,0.12)'">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+
+      </div>
+    `
+    document.body.appendChild(lb)
+
+    let lbIndex = 0
+
+    // Filtra apenas fotos que existem (sem erro de carregamento)
+    function lbValidPhotos() {
+      return ambPhotos.filter(p => {
+        const imgs = document.querySelectorAll('#amb-gallery-track img')
+        for (let img of imgs) {
+          if (img.src.includes(p.src.replace('/img/', '')) && img.parentElement.style.display === 'none') return false
+        }
+        return true
+      })
+    }
+
+    function lbOpen(index) {
+      lbIndex = index
+      lb.style.display = 'flex'
+      document.body.style.overflow = 'hidden'
+      clearInterval(ambAutoPlay) // pausa autoplay enquanto lightbox está aberto
+      lbRender()
+    }
+
+    function lbClose() {
+      lb.style.display = 'none'
+      document.body.style.overflow = ''
+      // retoma autoplay
+      ambAutoPlay = setInterval(() => ambGoToPage(ambCurrentPage < ambTotalPages - 1 ? ambCurrentPage + 1 : 0), 5000)
+    }
+
+    function lbRender() {
+      const photo = ambPhotos[lbIndex]
+      const img = document.getElementById('lb-img')
+      img.style.opacity = '0'
+      img.src = photo.src
+      img.alt = photo.alt
+      img.onload = () => { img.style.opacity = '1' }
+      document.getElementById('lb-counter').textContent = (lbIndex + 1) + ' / ' + ambPhotos.length
+    }
+
+    function lbNext() { lbIndex = lbIndex < ambPhotos.length - 1 ? lbIndex + 1 : 0; lbRender() }
+    function lbPrev() { lbIndex = lbIndex > 0 ? lbIndex - 1 : ambPhotos.length - 1; lbRender() }
+
+    document.getElementById('lb-close').addEventListener('click', lbClose)
+    document.getElementById('lb-next').addEventListener('click', lbNext)
+    document.getElementById('lb-prev').addEventListener('click', lbPrev)
+
+    // Fechar ao clicar no fundo escuro
+    lb.addEventListener('click', (e) => { if (e.target === lb || e.target === lb.firstElementChild) lbClose() })
+
+    // Navegar com as setas do teclado e fechar com ESC
+    document.addEventListener('keydown', (e) => {
+      if (lb.style.display === 'none') return
+      if (e.key === 'ArrowRight') lbNext()
+      if (e.key === 'ArrowLeft')  lbPrev()
+      if (e.key === 'Escape')     lbClose()
+    })
+
+    // Swipe no mobile (touch)
+    let lbTouchStartX = 0
+    lb.addEventListener('touchstart', (e) => { lbTouchStartX = e.changedTouches[0].clientX }, { passive: true })
+    lb.addEventListener('touchend',   (e) => {
+      const diff = lbTouchStartX - e.changedTouches[0].clientX
+      if (Math.abs(diff) > 40) diff > 0 ? lbNext() : lbPrev()
+    })
+  </script>
 </body>
 </html>

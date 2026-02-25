@@ -60,9 +60,9 @@
   }
 
   /* OVERLAY ATUALIZADO - Mais claro e branco */
-  .hero-overlay {
-    @apply absolute inset-0 bg-gradient-to-br from-white/20 via-gray-100/15 to-gray-200/25;
-  }
+.hero-overlay {
+  @apply absolute inset-0 bg-black/10;
+}
 
   /* Cards */
   .card {
