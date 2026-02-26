@@ -17,7 +17,7 @@ export default {
         },
         'tavola-red': '#8b2635',
         'tavola-cream': '#f8f6f1',
-        'tavola-gold': '#c9a961',
+        'tavola-gold': '#d4a017',
       },
       fontFamily: {
         'display': ['Playfair Display', 'serif'],

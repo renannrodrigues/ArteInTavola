@@ -195,7 +195,7 @@
         <div class="reveal group relative h-[520px] rounded-3xl overflow-hidden shadow-2xl cursor-pointer">
           <!-- Foto de fundo -->
           <img
-            src="/img/ossobuco.webp"
+            src="/img/8.jpg"
             alt="Menu Degustação"
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
@@ -239,12 +239,12 @@
         <div class="reveal group relative h-[520px] rounded-3xl overflow-hidden shadow-2xl cursor-pointer">
           <!-- Foto de fundo -->
           <img
-            src="/img/massa.jpg"
+            src="/img/menu.jpg"
             alt="Cardápio à La Carte"
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
           <!-- Overlay escuro gradiente -->
-          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/85"></div>
 
           <!-- Conteúdo -->
           <div class="absolute inset-0 flex flex-col justify-end p-8 md:p-10">
@@ -754,6 +754,48 @@
       const diff = lbTouchStartX - e.changedTouches[0].clientX
       if (Math.abs(diff) > 40) diff > 0 ? lbNext() : lbPrev()
     })
+  </script>
+
+  <!-- BANNER DE COOKIES -->
+  <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-50 bg-tavola-green-dark text-white px-6 py-5 shadow-2xl" style="display:none;">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-start gap-3 max-w-2xl">
+        <span class="text-2xl mt-0.5">🍪</span>
+        <p class="text-sm text-white/90 leading-relaxed">
+          Utilizamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com nossa 
+          <a href="#" class="underline text-tavola-gold hover:text-white transition-colors">Política de Privacidade</a>.
+        </p>
+      </div>
+      <div class="flex items-center gap-3 shrink-0">
+        <button id="cookie-decline" class="text-sm text-white/70 hover:text-white transition-colors underline">
+          Recusar
+        </button>
+        <button id="cookie-accept" class="bg-tavola-gold hover:bg-opacity-90 text-white text-sm font-semibold px-6 py-2.5 rounded-md transition-all duration-300 hover:shadow-lg">
+          Aceitar todos
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const banner = document.getElementById('cookie-banner')
+      const accepted = localStorage.getItem('cookies-accepted')
+      if (!accepted) banner.style.display = 'block'
+
+      document.getElementById('cookie-accept').addEventListener('click', () => {
+        localStorage.setItem('cookies-accepted', 'true')
+        banner.style.transition = 'opacity 0.4s'
+        banner.style.opacity = '0'
+        setTimeout(() => banner.style.display = 'none', 400)
+      })
+
+      document.getElementById('cookie-decline').addEventListener('click', () => {
+        banner.style.transition = 'opacity 0.4s'
+        banner.style.opacity = '0'
+        setTimeout(() => banner.style.display = 'none', 400)
+      })
+    })()
   </script>
 </body>
 </html>
