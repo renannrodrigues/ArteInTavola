@@ -12,9 +12,9 @@ const menuData = [
   {
     category: 'entradas',
     name: 'Bala de massa folhada recheada com cogumelos Paris frescos e presunto tipo Parma',
-    description: 'Polvilhada com parmesão ralado e mostarda Dijon e creme quatro queijos. Puff pastry ball with Paris mushroom, Parma ham and four cheeses',
+    description: 'Polvilhada com parmesão ralado e mostarda Dijon e creme quatro queijos.',
     price: 'R$ 38,00',
-    image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&h=400&fit=crop'
+    image: 'public/img/balafolhada.jpg'
   },
   {
     category: 'entradas',
@@ -28,7 +28,7 @@ const menuData = [
   {
     category: 'saladas',
     name: 'A moda da casa',
-    description: 'Mix de folhas, com tahine, azeite de oliva, mel, aceto balsâmico, confit de tomates cereja e lascas de parmesão. Mixed leaves with tahini, olive oil, honey, balsamic vinagre, witchery tomato and chips of Parmesan cheese',
+    description: 'Mix de folhas, com tahine, azeite de oliva, mel, aceto balsâmico, confit de tomates cereja e lascas de parmesão.',
     price: 'R$ 29,00',
     image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop'
   },
@@ -46,21 +46,21 @@ const menuData = [
     name: 'Filé mignon grelhado',
     description: 'Grilled filet mignon (100g)',
     price: 'R$ 29,00',
-    image: 'https://images.unsplash.com/photo-1558030006-450675393462?w=600&h=400&fit=crop'
+    image: 'public/img/fileadicional.jpg'
   },
 
   // ========== SOPAS / SOUPS ==========
   {
     category: 'sopas',
     name: 'Sopa de cebola gratinada ao estilo francês',
-    description: 'Com pão e queijo colonial. Onion soup with french style au gratin, colonial cheese and bread',
+    description: 'Com pão e queijo colonial.',
     price: 'R$ 55,00',
-    image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=400&fit=crop'
+    image: 'public/img/sopa de cebola.jpg'
   },
   {
     category: 'sopas',
     name: 'Sopa de capeletti com recheio de frango',
-    description: 'Capeletti soup with chicken filling',
+    description: 'Sopa de capeletti com caldo de frango caseiro e recheio de frango triturado.',
     price: 'R$ 55,00',
     image: 'https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=600&h=400&fit=crop'
   },
@@ -69,30 +69,30 @@ const menuData = [
   {
     category: 'risotos',
     name: 'Risoto com camarões e abobrinha',
-    description: 'Arroz arbóreo e açafrão. Pumpkin and prawn risotto',
+    description: 'Arroz arbóreo com camarões frescos e abobrinha salteada.',
     price: 'R$ 115,00',
-    image: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&h=400&fit=crop'
+    image: 'public/img/risotocamarao.jpg'
   },
   {
     category: 'risotos',
-    name: 'Risoto de tomate seco, rúcula e cogumelos Paris fresco',
-    description: 'Dried tomato risotto, arugula and fresh Paris mushroom',
+    name: 'Risoto de tomate seco, rúcula e cogumelos Paris',
+    description: 'Risoto de tomate seco, rúcula e cogumelos Paris fresco',
     price: 'R$ 89,00',
-    image: 'https://images.unsplash.com/photo-1476124369491-f51ad4d3c149?w=600&h=400&fit=crop'
+    image: 'public/img/risototomate.jpeg'
   },
   {
     category: 'risotos',
     name: 'Risoto de aspargos frescos',
-    description: 'Risotto with fresh asparagus',
+    description: 'Risoto com aspargos salteados na manteiga frescos',
     price: 'R$ 74,00',
-    image: 'https://images.unsplash.com/photo-1593560704563-f176a2eb61db?w=600&h=400&fit=crop'
+    image: 'public/img/risotoaspargo.jpg'
   },
 
   // ========== MASSAS FRESCAS / FRESH PASTA ==========
   {
     category: 'massas',
     name: 'Ravioli de búfala Gomes de Sá',
-    description: 'Ravioli recheado com mussarela de búfala ao molho de tomate fresco. Gomes de Sá styled soft codfish ravioli',
+    description: 'Ravioli recheado com mussarela de búfala ao molho de tomate fresco.',
     price: 'R$ 115,00',
     image: 'https://images.unsplash.com/photo-1587740896339-96a76170508d?w=600&h=400&fit=crop',
     featured: true
@@ -100,98 +100,98 @@ const menuData = [
   {
     category: 'massas',
     name: 'Tortelloni de pato ao noccioli',
-    description: 'Duck tortelloni pasta with noccioli sauce',
+    description: 'Tortelloni de pato artesanal ao molho de noccioli',
     price: 'R$ 114,00',
-    image: 'https://images.unsplash.com/photo-1611171711912-e4d17ff276e0?w=600&h=400&fit=crop'
+    image: 'public/img/tortei.jpg'
   },
   {
     category: 'massas',
     name: 'Lasanha de coelho',
-    description: 'Rabbit lasagna',
+    description: 'Massa de lasanha artesanal com recheio de coelho desfiado',
     price: 'R$ 89,00',
-    image: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&h=400&fit=crop'
+    image: 'public/img/lasanha.jpg'
   },
   {
     category: 'massas',
     name: 'Tortéi ao molho de provolone, manjericão e farofa de presunto Parma',
-    description: 'Tortellini with Provolone cheese, basil and Parma ham sauce',
+    description: 'Tortellini com massa artesanal com molho bechamel de provolone, manjericão e farofa de presunto Parma',
     price: 'R$ 88,00',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop'
+    image: 'public/img/tortei.jpg'
   },
   {
     category: 'massas',
     name: 'Tagliarini (bianco ou tricolori) ao molho quatro queijos ou sugo',
-    description: 'Tagliarini pasta (bianco or tricolori) with four cheese or sugo sauce',
+    description: 'Tagliarini (bianco ou tricolori) ao molho quatro queijos ou sugo',
     price: 'R$ 82,00',
-    image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&h=400&fit=crop'
+    image: 'public/img/tagliarini.jpg'
   },
 
   // ========== PRATO PRINCIPAL / MAIN COURSES ==========
   {
     category: 'principais',
     name: 'Salmão em crosta de gergelim',
-    description: 'Ao molho de ervas finas com purê de batata baroa estilo Bairro. Sesame crust salmon with fine herb sauce and Bairro-style mashed potatoes',
+    description: 'Ao molho de ervas finas com purê de batata baroa estilo Bairro.',
     price: 'R$ 115,00',
-    image: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&h=400&fit=crop',
+    image: 'public/img/salmaomandioquinha.jpeg',
     featured: true
   },
   {
     category: 'principais',
     name: 'Codorna com massa caseira da Vó Nita',
-    description: 'Massa cortada na faca. Quail with Grandma\'s Nita homemade pasta (pasta cut with knife)',
+    description: 'Massa artesanal cortada na faca acompanhada da codorna.',
     price: 'R$ 103,00',
     image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop'
   },
   {
     category: 'principais',
     name: 'Stinco de cordeiro',
-    description: 'Com tagliarini bianco aos três cogumelos. Roasted lamb with bianco tagliarini pasta and three mushrooms sauce',
+    description: 'Com tagliarini bianco aos três cogumelos.',
     price: 'R$ 126,00',
-    image: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&h=400&fit=crop'
+    image: 'public/img/stinco.jpg'
   },
   {
     category: 'principais',
     name: 'Ossobuco com risoto à la milanesa',
-    description: 'Risoto de açafrão. Ossobuco meat with fresh tomato sauce (saffron risotto)',
+    description: 'Risoto de açafrão com ossobuco cozido lentamente ao molho de tomate e vinho tinto.',
     price: 'R$ 115,00',
-    image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&h=400&fit=crop'
+    image: 'public/img/risotoossobuco.jpg'
   },
   {
     category: 'principais',
-    name: 'Filé mignon com rúcula ao aceto balsâmico',
-    description: 'E batata ao forno. Filet mignon with arugula on balsamic vinegar and oven baked potato',
+    name: 'Filé mignon com rúcula ao aceto balsâmico e batata baroa',
+    description: 'Filé mignon grelhado com rúcula, molho de aceto balsâmico e batata baroa estilo Bairro na manteiga arotmatizada.',
     price: 'R$ 89,00',
-    image: 'https://images.unsplash.com/photo-1558030006-450675393462?w=600&h=400&fit=crop'
+    image: 'public/img/filecombatata.jpg'
   },
   {
     category: 'principais',
     name: 'Risoto de ervas finas com frango ou alcatra grelhado',
-    description: 'Fine herbs risotto with grilled chicken or rump',
+    description: 'Risoto de ervas finas com frango ou alcatra grelhado',
     price: 'R$ 63,00',
-    image: 'https://images.unsplash.com/photo-1516684732162-798a0062be99?w=600&h=400&fit=crop'
+    image: 'public/img/risotoervasfile.jpeg'
   },
 
   // ========== SOBREMESAS / DESSERTS ==========
   {
     category: 'sobremesas',
     name: 'Semifredo',
-    description: 'Consultar sabores. Ice cream (ask flavors)',
+    description: 'Semifredo de chocolate com calda de chocolate',
     price: 'R$ 29,00',
     image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop'
   },
   {
     category: 'sobremesas',
     name: 'Creme brulée',
-    description: 'Creme brulée',
+    description: 'Maxaricado com açúcar queimado na mesa do cliente',
     price: 'R$ 29,00',
-    image: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=600&h=400&fit=crop'
+    image: 'public/img/brulee.jpg'
   },
   {
     category: 'sobremesas',
     name: 'Sorvete natural',
-    description: 'Consultar sabores. Natural ice cream (ask flavors)',
+    description: 'Sorvete natural artesanal feito com ingredientes frescos e sem conservantes. Consultar sabores.',
     price: 'R$ 25,00',
-    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop'
+    image: 'public/img/sorvete.jpg'
   }
 ]
 
