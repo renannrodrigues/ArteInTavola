@@ -14,7 +14,7 @@ const menuData = [
     name: 'Bala de massa folhada recheada com cogumelos Paris frescos e presunto tipo Parma',
     description: 'Polvilhada com parmesão ralado e mostarda Dijon e creme quatro queijos.',
     price: 'R$ 38,00',
-    image: 'public/img/balafolhada.jpg'
+    image: '/img/balafolhada.jpg'
   },
   {
     category: 'entradas',
@@ -46,7 +46,7 @@ const menuData = [
     name: 'Filé mignon grelhado',
     description: 'Grilled filet mignon (100g)',
     price: 'R$ 29,00',
-    image: 'public/img/fileadicional.jpg'
+    image: '/img/fileadicional.jpg'
   },
 
   // ========== SOPAS / SOUPS ==========
@@ -55,7 +55,7 @@ const menuData = [
     name: 'Sopa de cebola gratinada ao estilo francês',
     description: 'Com pão e queijo colonial.',
     price: 'R$ 55,00',
-    image: 'public/img/sopa de cebola.jpg'
+    image: '/img/sopa de cebola.jpg'
   },
   {
     category: 'sopas',
@@ -71,21 +71,21 @@ const menuData = [
     name: 'Risoto com camarões e abobrinha',
     description: 'Arroz arbóreo com camarões frescos e abobrinha salteada.',
     price: 'R$ 115,00',
-    image: 'public/img/risotocamarao.jpg'
+    image: '/img/risotocamarao.jpg'
   },
   {
     category: 'risotos',
     name: 'Risoto de tomate seco, rúcula e cogumelos Paris',
     description: 'Risoto de tomate seco, rúcula e cogumelos Paris fresco',
     price: 'R$ 89,00',
-    image: 'public/img/risototomate.jpeg'
+    image: '/img/risototomate.jpeg'
   },
   {
     category: 'risotos',
     name: 'Risoto de aspargos frescos',
     description: 'Risoto com aspargos salteados na manteiga frescos',
     price: 'R$ 74,00',
-    image: 'public/img/risotoaspargo.jpg'
+    image: '/img/risotoaspargo.jpg'
   },
 
   // ========== MASSAS FRESCAS / FRESH PASTA ==========
@@ -102,28 +102,28 @@ const menuData = [
     name: 'Tortelloni de pato ao noccioli',
     description: 'Tortelloni de pato artesanal ao molho de noccioli',
     price: 'R$ 114,00',
-    image: 'public/img/tortei.jpg'
+    image: '/img/tortei.jpg'
   },
   {
     category: 'massas',
     name: 'Lasanha de coelho',
     description: 'Massa de lasanha artesanal com recheio de coelho desfiado',
     price: 'R$ 89,00',
-    image: 'public/img/lasanha.jpg'
+    image: '/img/lasanha.jpg'
   },
   {
     category: 'massas',
     name: 'Tortéi ao molho de provolone, manjericão e farofa de presunto Parma',
     description: 'Tortellini com massa artesanal com molho bechamel de provolone, manjericão e farofa de presunto Parma',
     price: 'R$ 88,00',
-    image: 'public/img/tortei.jpg'
+    image: '/img/tortei.jpg'
   },
   {
     category: 'massas',
     name: 'Tagliarini (bianco ou tricolori) ao molho quatro queijos ou sugo',
     description: 'Tagliarini (bianco ou tricolori) ao molho quatro queijos ou sugo',
     price: 'R$ 82,00',
-    image: 'public/img/tagliarini.jpg'
+    image: '/img/tagliarini.jpg'
   },
 
   // ========== PRATO PRINCIPAL / MAIN COURSES ==========
@@ -132,7 +132,7 @@ const menuData = [
     name: 'Salmão em crosta de gergelim',
     description: 'Ao molho de ervas finas com purê de batata baroa estilo Bairro.',
     price: 'R$ 115,00',
-    image: 'public/img/salmaomandioquinha.jpeg',
+    image: '/img/salmaomandioquinha.jpeg',
     featured: true
   },
   {
@@ -147,28 +147,28 @@ const menuData = [
     name: 'Stinco de cordeiro',
     description: 'Com tagliarini bianco aos três cogumelos.',
     price: 'R$ 126,00',
-    image: 'public/img/stinco.jpg'
+    image: '/img/stinco.jpg'
   },
   {
     category: 'principais',
     name: 'Ossobuco com risoto à la milanesa',
     description: 'Risoto de açafrão com ossobuco cozido lentamente ao molho de tomate e vinho tinto.',
     price: 'R$ 115,00',
-    image: 'public/img/risotoossobuco.jpg'
+    image: '/img/risotoossobuco.jpg'
   },
   {
     category: 'principais',
     name: 'Filé mignon com rúcula ao aceto balsâmico e batata baroa',
     description: 'Filé mignon grelhado com rúcula, molho de aceto balsâmico e batata baroa estilo Bairro na manteiga arotmatizada.',
     price: 'R$ 89,00',
-    image: 'public/img/filecombatata.jpg'
+    image: '/img/filecombatata.jpg'
   },
   {
     category: 'principais',
     name: 'Risoto de ervas finas com frango ou alcatra grelhado',
     description: 'Risoto de ervas finas com frango ou alcatra grelhado',
     price: 'R$ 63,00',
-    image: 'public/img/risotoervasfile.jpeg'
+    image: '/img/risotoervasfile.jpeg'
   },
 
   // ========== SOBREMESAS / DESSERTS ==========
@@ -184,14 +184,14 @@ const menuData = [
     name: 'Creme brulée',
     description: 'Maxaricado com açúcar queimado na mesa do cliente',
     price: 'R$ 29,00',
-    image: 'public/img/brulee.jpg'
+    image: '/img/brulee.jpg'
   },
   {
     category: 'sobremesas',
     name: 'Sorvete natural',
     description: 'Sorvete natural artesanal feito com ingredientes frescos e sem conservantes. Consultar sabores.',
     price: 'R$ 25,00',
-    image: 'public/img/sorvete.jpg'
+    image: '/img/sorvete.jpg'
   }
 ]
 
