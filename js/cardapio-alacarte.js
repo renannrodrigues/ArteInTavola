@@ -30,7 +30,7 @@ const menuData = [
     name: 'A moda da casa',
     description: 'Mix de folhas, com tahine, azeite de oliva, mel, aceto balsâmico, confit de tomates cereja e lascas de parmesão.',
     price: 'R$ 29,00',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop'
+    image: '/img/saladacasa1.png'
   },
 
   // ========== ADICIONAIS / ADDITIONALS ==========
@@ -78,7 +78,7 @@ const menuData = [
     name: 'Risoto de tomate seco, rúcula e cogumelos Paris',
     description: 'Risoto de tomate seco, rúcula e cogumelos Paris fresco',
     price: 'R$ 89,00',
-    image: '/img/risototomate.jpeg'
+    image: '/img/risototomate1.jpeg'
   },
   {
     category: 'risotos',
@@ -132,7 +132,7 @@ const menuData = [
     name: 'Salmão em crosta de gergelim',
     description: 'Ao molho de ervas finas com purê de batata baroa estilo Bairro.',
     price: 'R$ 115,00',
-    image: '/img/salmaomandioquinha.jpeg',
+    image: '/img/salmaomandioquinha1.jpeg',
     featured: true
   },
   {
@@ -147,7 +147,7 @@ const menuData = [
     name: 'Stinco de cordeiro',
     description: 'Com tagliarini bianco aos três cogumelos.',
     price: 'R$ 126,00',
-    image: '/img/stinco.jpg'
+    image: '/img/stinco1.jpg'
   },
   {
     category: 'principais',
@@ -168,7 +168,7 @@ const menuData = [
     name: 'Risoto de ervas finas com frango ou alcatra grelhado',
     description: 'Risoto de ervas finas com frango ou alcatra grelhado',
     price: 'R$ 63,00',
-    image: '/img/risotoervasfile.jpeg'
+    image: '/img/risotoervasfile1.jpeg'
   },
 
   // ========== SOBREMESAS / DESSERTS ==========
@@ -191,7 +191,7 @@ const menuData = [
     name: 'Sorvete natural',
     description: 'Sorvete natural artesanal feito com ingredientes frescos e sem conservantes. Consultar sabores.',
     price: 'R$ 25,00',
-    image: '/img/sorvete.jpg'
+    image: '/img/sorvete1.jpg'
   }
 ]
 
