@@ -12,7 +12,7 @@ const menuData = [
   {
     category: 'entradas',
     name: 'Bala de massa folhada recheada com cogumelos Paris frescos e presunto tipo Parma',
-    description: 'Polvilhada com parmesão ralado e mostarda Dijon e creme quatro queijos.',
+    description: 'Com mostarda Dijon e creme quatro queijos.',
     price: 'R$ 38,00',
     image: '/img/balafolhada.jpg'
   },
@@ -21,7 +21,7 @@ const menuData = [
     name: 'Couvert Arte in Tavola',
     description: 'Com baguete e focaccias artesanais com fermentação natural, grissini, salame, queijo colonial e patê',
     price: 'R$ 37,00',
-    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop'
+    image: '/img/couvert.png'
   },
 
   // ========== SALADAS / SALADS ==========
@@ -37,14 +37,14 @@ const menuData = [
   {
     category: 'adicionais',
     name: 'Salmão grelhado',
-    description: 'Grilled salmon (100g)',
+    description: 'Salmão fresco (100g)',
     price: 'R$ 33,00',
-    image: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&h=400&fit=crop'
+    image: '/img/salmao.png'
   },
   {
     category: 'adicionais',
     name: 'Filé mignon grelhado',
-    description: 'Grilled filet mignon (100g)',
+    description: 'Escolha o ponto perfeito para você (100g)',
     price: 'R$ 29,00',
     image: '/img/fileadicional.jpg'
   },
@@ -60,7 +60,7 @@ const menuData = [
   {
     category: 'sopas',
     name: 'Sopa de capeletti com recheio de frango',
-    description: 'Sopa de capeletti com caldo de frango caseiro e recheio de frango triturado.',
+    description: 'Sopa de capeletti com caldo e recheio de frango.',
     price: 'R$ 55,00',
     image: 'https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=600&h=400&fit=crop'
   },
@@ -91,10 +91,10 @@ const menuData = [
   // ========== MASSAS FRESCAS / FRESH PASTA ==========
   {
     category: 'massas',
-    name: 'Ravioli de búfala Gomes de Sá',
-    description: 'Ravioli recheado com mussarela de búfala ao molho de tomate fresco.',
+    name: 'Ravioli de bacalhau Gomes de Sá',
+    description: 'Ravioli de bacalhau ao molho de tomate fresco.',
     price: 'R$ 115,00',
-    image: 'https://images.unsplash.com/photo-1587740896339-96a76170508d?w=600&h=400&fit=crop',
+    image: '/img/ravioli.png',
     featured: true
   },
   {
@@ -114,7 +114,7 @@ const menuData = [
   {
     category: 'massas',
     name: 'Tortéi ao molho de provolone, manjericão e farofa de presunto Parma',
-    description: 'Tortellini com massa artesanal com molho bechamel de provolone, manjericão e farofa de presunto Parma',
+    description: 'Tortéi com massa artesanal com molho provolone, manjericão e farofa de presunto Parma',
     price: 'R$ 88,00',
     image: '/img/tortei.jpg'
   },
@@ -137,7 +137,7 @@ const menuData = [
   },
   {
     category: 'principais',
-    name: 'Codorna com massa caseira da Vó Nita',
+    name: 'Codorna com massa caseira da Vó Nila',
     description: 'Massa artesanal cortada na faca acompanhada da codorna.',
     price: 'R$ 103,00',
     image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop'
@@ -151,15 +151,15 @@ const menuData = [
   },
   {
     category: 'principais',
-    name: 'Ossobuco com risoto à la milanesa',
-    description: 'Risoto de açafrão com ossobuco cozido lentamente ao molho de tomate e vinho tinto.',
+    name: 'Ossobuco com risoto de açafrão',
+    description: 'Risoto de açafrão com ossobuco cozido lentamente.',
     price: 'R$ 115,00',
     image: '/img/risotoossobuco.jpg'
   },
   {
     category: 'principais',
-    name: 'Filé mignon com rúcula ao aceto balsâmico e batata baroa',
-    description: 'Filé mignon grelhado com rúcula, molho de aceto balsâmico e batata baroa estilo Bairro na manteiga arotmatizada.',
+    name: 'Filé mignon com rúcula ao aceto balsâmico e batata assada',
+    description: 'Filé mignon grelhado com rúcula, molho de aceto balsâmico e batata assada na manteiga de ervas finas.',
     price: 'R$ 89,00',
     image: '/img/filecombatata.jpg'
   },
@@ -175,14 +175,14 @@ const menuData = [
   {
     category: 'sobremesas',
     name: 'Semifredo',
-    description: 'Semifredo de chocolate com calda de chocolate',
+    description: 'Consulte sabores disponíveis.',
     price: 'R$ 29,00',
     image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop'
   },
   {
     category: 'sobremesas',
     name: 'Creme brulée',
-    description: 'Maxaricado com açúcar queimado na mesa do cliente',
+    description: 'Açúcar mascavo maçaricado na mesa do cliente',
     price: 'R$ 29,00',
     image: '/img/brulee.jpg'
   },
