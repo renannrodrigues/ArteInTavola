@@ -113,35 +113,39 @@
   </section>
 
   <!-- FILTRO DE CATEGORIAS -->
-  <section class="py-8 bg-white sticky top-[72px] z-40 shadow-md">
-    <div class="container mx-auto px-6">
-      <div class="flex flex-wrap justify-center gap-3" id="category-filters">
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-tavola-green text-white" data-category="todos">
+  <section class="py-4 bg-white sticky top-[72px] z-40 shadow-md">
+    <div class="overflow-x-auto scrollbar-hide" style="-webkit-overflow-scrolling: touch;">
+      <div class="flex gap-3 px-6 pb-1" id="category-filters" style="width: max-content; min-width: 100%;">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-tavola-green text-white whitespace-nowrap" data-category="todos">
           Todos
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="entradas">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="entradas">
           Entradas
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="saladas">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="saladas">
           Saladas
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="sopas">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="sopas">
           Sopas
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="risotos">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="risotos">
           Risotos
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="massas">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="massas">
           Massas Frescas
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="principais">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="principais">
           Pratos Principais
         </button>
-        <button class="filter-btn px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green hover:bg-gray-50" data-category="sobremesas">
+        <button class="filter-btn flex-shrink-0 px-6 py-2 rounded-full font-medium transition-all duration-300 bg-white text-tavola-green border border-gray-200 whitespace-nowrap" data-category="sobremesas">
           Sobremesas
         </button>
       </div>
     </div>
+    <style>
+      .scrollbar-hide::-webkit-scrollbar { display: none; }
+      .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
   </section>
 
   <!-- MENU ITEMS -->
@@ -233,6 +237,6 @@
     </div>
   </footer>
 
-  <script type="module" src="js/cardapio-alacarte.js"></script>
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>
