@@ -62,7 +62,7 @@ const menuData = [
     name: 'Sopa de capeletti com recheio de frango',
     description: 'Sopa de capeletti com caldo e recheio de frango.',
     price: 'R$ 55,00',
-    image: 'https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=600&h=400&fit=crop'
+    image: '/img/capeleti.png'
   },
 
   // ========== PRIMEIRO PRATO / FIRST COURSES (RISOTOS) ==========
