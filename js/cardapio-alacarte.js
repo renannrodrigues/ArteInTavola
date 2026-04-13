@@ -140,7 +140,7 @@ const menuData = [
     name: 'Codorna com massa caseira da Vó Nila',
     description: 'Massa artesanal cortada na faca acompanhada da codorna.',
     price: 'R$ 103,00',
-    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop'
+    image: '/img/codorna.jpeg'
   },
   {
     category: 'principais',
@@ -177,7 +177,7 @@ const menuData = [
     name: 'Semifredo',
     description: 'Consulte sabores disponíveis.',
     price: 'R$ 29,00',
-    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop'
+    image: '/img/semifredo.jpeg'
   },
   {
     category: 'sobremesas',
