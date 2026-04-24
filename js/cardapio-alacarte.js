@@ -102,7 +102,7 @@ const menuData = [
     name: 'Tortelloni de pato ao noccioli',
     description: 'Tortelloni de pato artesanal ao molho de noccioli',
     price: 'R$ 114,00',
-    image: '/img/pato.jpg'
+    image: '/img/pato.jpeg'
   },
   {
     category: 'massas',
