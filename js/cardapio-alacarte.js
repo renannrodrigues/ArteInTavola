@@ -83,7 +83,7 @@ const menuData = [
   {
     category: 'risotos',
     name: 'Risoto de aspargos frescos',
-    description: 'Risoto com aspargos salteados na manteiga frescos',
+    description: 'Risoto com aspargos frescos, salteados na manteiga',
     price: 'R$ 74,00',
     image: '/img/risotoaspargo.jpg'
   },
@@ -92,7 +92,7 @@ const menuData = [
   {
     category: 'massas',
     name: 'Ravioli de bacalhau Gomes de Sá',
-    description: 'Ravioli de bacalhau ao molho de tomate fresco.',
+    description: 'Ravioli de bacalhau ao molho de tomate, pimentões alcaparas e azeitonas pretas',
     price: 'R$ 115,00',
     image: '/img/ravioli.png',
     featured: true
@@ -100,7 +100,7 @@ const menuData = [
   {
     category: 'massas',
     name: 'Tortelloni de pato ao noccioli',
-    description: 'Tortelloni de pato artesanal ao molho de noccioli',
+    description: 'Tortelloni de pato artesanal, nata, nozes e peito de peru defumado',
     price: 'R$ 114,00',
     image: '/img/pato.jpg'
   },
@@ -120,8 +120,8 @@ const menuData = [
   },
   {
     category: 'massas',
-    name: 'Tagliarini (bianco ou tricolori) ao molho quatro queijos ou sugo',
-    description: 'Tagliarini (bianco ou tricolori) ao molho quatro queijos ou sugo',
+    name: 'Tagliarini ao molho quatro queijos ou sugo',
+    description: 'Tagliarini ao molho quatro queijos ou sugo',
     price: 'R$ 82,00',
     image: '/img/tagliarini.jpg'
   },
@@ -130,7 +130,7 @@ const menuData = [
   {
     category: 'principais',
     name: 'Salmão em crosta de gergelim',
-    description: 'Ao molho de ervas finas com purê de batata baroa estilo Bairro.',
+    description: 'Ao molho de ervas finas com purê de batata baroa',
     price: 'R$ 115,00',
     image: '/img/salmaomandioquinha1.jpeg',
     featured: true
@@ -159,7 +159,7 @@ const menuData = [
   {
     category: 'principais',
     name: 'Filé mignon com rúcula ao aceto balsâmico e batata assada',
-    description: 'Filé mignon grelhado com rúcula, molho de aceto balsâmico e batata assada na manteiga de ervas finas.',
+    description: 'Filé mignon grelhado, rúcula, molho de aceto balsâmico, batata assada e manteiga de ervas finas.',
     price: 'R$ 89,00',
     image: '/img/filecombatata.jpg'
   },
